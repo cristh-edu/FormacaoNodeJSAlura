@@ -2,6 +2,7 @@
   "name": "2-api-rest-com-express-e-mongodb",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
@@ -12,5 +13,8 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
   }
 }
